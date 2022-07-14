@@ -27,6 +27,8 @@ body{
     cursor: pointer;
 }
 
+
+
 main{
     background-color: rgb(127, 255, 212);
     height: calc(100vh - 60px);

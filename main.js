@@ -50,8 +50,10 @@ function createSqr(){
 
 function clickedStyle(mySqr){
     mySqr.addEventListener('click',
-        this.classList.toggle('selected1');
-
-        console.log(mySqr.innerHTML);
+        function(){
+            this.classList.toggle('selected1');
+        
+            console.log(mySqr.innerHTML);
+        }
     )
 }
