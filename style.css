@@ -5,7 +5,7 @@
 }
 
 body{
-    font-family: 'Orbitron', sans-serif;
+    font-family: 'Nunito', sans-serif;
 }
 
 .game-header{
@@ -32,6 +32,7 @@ body{
 main{
     background-color: rgb(127, 255, 212);
     height: calc(100vh - 60px);
+    color: white;
 }
 
 #grid{
@@ -41,6 +42,7 @@ main{
     display: flex;
     flex-wrap: wrap;
     align-content: flex-start;
+    padding-top: 20px;
 }
 
 .square{
@@ -52,7 +54,8 @@ main{
 }
 
 .selected1{
-    background-color: pink;
+    background-color: white;
+    color: rgb(127, 255, 212);;
 }
 
 .easyLvl{
